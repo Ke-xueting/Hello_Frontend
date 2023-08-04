@@ -41,7 +41,7 @@ function App(props) {
       <header className="App-header">
         <ul>
           {data.allLinks.map(item => (
-            <li key={item.id}>
+            <li>
               <strong>URL:</strong> {item.url}
             </li>
           ))}
